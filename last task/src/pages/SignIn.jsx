@@ -10,11 +10,11 @@ const SignIn = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [errors, setErrors] = useState({});
 
-  const validateForm = () => {
+  const validateForm = ()=> {
     let valid = true;
     let errors = {};
 
-    if (!email) {
+    if (email) {
       errors.email = "Email is required";
       valid = false;
     } else if (!/\S+@\S+\.\S+/.test(email)) {
@@ -37,13 +37,15 @@ const SignIn = () => {
   const handleLogin = (e) => {
     e.preventDefault(); 
     if (validateForm()) {
-        signInWithEmailAndPassword(auth, email, password)
+        signInWithEmailAndPassword(auth, email.value, password.value)
         .then((userCredential) => {
           // Signed in 
           const user = userCredential.user;
-          navigate("/Home")
+          navigate("/")
+          console.log(user.va)
           // ...
         })
+      
         .catch((error) => {
           const errorCode = error.code;
           const errorMessage = error.message;
@@ -130,7 +132,7 @@ const SignIn = () => {
 
           {/* Login Button */}
           <button
-          onClick={handleLogin}
+                 onClick={handleLogin}
             type="submit"
             className="w-full bg-black text-white py-3 rounded-lg hover:bg-[#F0F0F0] hover:text-black border border-black transition-all"
           >
