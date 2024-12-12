@@ -7,8 +7,8 @@ import ProductPage from "./pages/ProductPage";
 import CategoryPage from "./pages/CategoryPage";
 import ProductDetail from "./pages/ProductDetail";
 import Sale from "./pages/Sale";
-import SignIn from "./pages/signin";
-import SignUp from "./pages/signup";
+import SignIn from "./pages/SignIn";
+import SignUp from "./pages/SignUp";
 
 
 const App = () => {

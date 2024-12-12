@@ -22,37 +22,37 @@ const Detail = ({ detail }) => {
       label: "Rating & Review",
       content: [
         {
-          name: "Umar Malik",
+          name: "Aisha",
           desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quod numquam ut soluta veritatis reiciendis aperiam, quis omnis dolorem eaque?",
 
           date: "August 16 , 2024",
         },
         {
-          name: "Bilal Memon",
+          name: "Warner",
           desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quod numquam ut soluta veritatis reiciendis aperiam, quis omnis dolorem eaque?",
 
           date: "August 20 , 2024",
         },
         {
-          name: "Wasi Khatri",
+          name: "Jhon Deep",
           desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quod numquam ut soluta veritatis reiciendis aperiam, quis omnis dolorem eaque?",
 
           date: "August 1 November , 2024",
         },
         {
-          name: "Mubashir Ali",
+          name: "Vikas bhatt",
           desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quod numquam ut soluta veritatis reiciendis aperiam, quis omnis dolorem eaque?",
 
           date: "August 4 November , 2024",
         },
         {
-          name: "Faizan Ali",
+          name: "Suleman Ali",
           desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quod numquam ut soluta veritatis reiciendis aperiam, quis omnis dolorem eaque?",
 
           date: "August 20 , 2024",
         },
         {
-          name: "Sir Sadiq Shah",
+          name: "Xavier",
           desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quod numquam ut soluta veritatis reiciendis aperiam, quis omnis dolorem eaque?",
 
           date: "August 25 , 2024",

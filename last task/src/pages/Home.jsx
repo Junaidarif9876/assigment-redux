@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import  { useEffect } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
@@ -14,7 +14,7 @@ import Customer from "../components/Coustomer.jsx";
 const Home = () => {
   const dispatch = useDispatch();
   const ReduxProduct = async () => {
-    // https://fakestoreapi.in/api/products
+  
     const response = await fetch("https://fakestoreapi.in/api/products");
     const products = await response.json();
 

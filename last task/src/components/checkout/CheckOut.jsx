@@ -69,8 +69,8 @@ const Checkout = () => {
             <span className="credithead"> Credit Card</span>
           </span>
           <span className="flex w-[100px]">
-            <img src="./assets/image/visa.png" width={60} />
-            <img src="./assets/image/mastercard.png " width={60} />
+            <img src="./assets/visa.png" width={60} />
+            <img src="./assets/mastercard.png " width={60} />
           </span>
         </div>
         <div className="portion3-section1">

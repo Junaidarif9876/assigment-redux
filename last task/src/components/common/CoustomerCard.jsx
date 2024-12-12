@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { IoCheckmarkDoneCircle } from 'react-icons/io5'
 
 const CustomerCard = ({data}) => {
